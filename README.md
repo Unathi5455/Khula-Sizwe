@@ -1,6 +1,4 @@
 Verification Code: WTC-R6BV6YJP
-<<<<<<< HEAD
-=======
 
 Drought Early-Warning System for Food Security in Africa
 
