@@ -1,0 +1,58 @@
+country:
+  name: South Africa
+  iso3: ZAF
+
+regions:
+  - code: GT
+    name: Gauteng
+    gadm_name: Gauteng
+    point: { lat: -26.20, lon: 28.05, label: Johannesburg }
+    rainfall_regime: summer
+
+  - code: WC
+    name: Western Cape
+    gadm_name: Western Cape
+    point: { lat: -33.92, lon: 18.42, label: Cape Town }
+    rainfall_regime: winter
+
+  - code: KZN
+    name: KwaZulu-Natal
+    gadm_name: KwaZulu-Natal
+    point: { lat: -29.86, lon: 31.02, label: Durban }
+    rainfall_regime: summer
+
+  - code: EC
+    name: Eastern Cape
+    gadm_name: Eastern Cape
+    point: { lat: -33.96, lon: 25.60, label: Gqeberha }
+    rainfall_regime: year_round
+
+  - code: FS
+    name: Free State
+    gadm_name: Free State
+    point: { lat: -29.12, lon: 26.21, label: Bloemfontein }
+    rainfall_regime: summer
+
+  - code: LP
+    name: Limpopo
+    gadm_name: Limpopo
+    point: { lat: -23.90, lon: 29.47, label: Polokwane }
+    rainfall_regime: summer
+
+  - code: MP
+    name: Mpumalanga
+    gadm_name: Mpumalanga
+    point: { lat: -25.47, lon: 30.98, label: Mbombela }
+    rainfall_regime: summer
+
+  - code: NW
+    name: North West
+    gadm_name: North West
+    point: { lat: -25.87, lon: 25.64, label: Mahikeng }
+    rainfall_regime: summer
+
+  - code: NC
+    name: Northern Cape
+    gadm_name: Northern Cape
+    point: { lat: -28.74, lon: 24.77, label: Kimberley }
+    rainfall_regime: summer
