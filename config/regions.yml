@@ -11,7 +11,7 @@ regions:
 
   - code: WC
     name: Western Cape
-    gadm_name: Western Cape
+    gadm_name: WesternCape
     point: { lat: -33.92, lon: 18.42, label: Cape Town }
     rainfall_regime: winter
 
@@ -23,13 +23,13 @@ regions:
 
   - code: EC
     name: Eastern Cape
-    gadm_name: Eastern Cape
+    gadm_name: EasternCape
     point: { lat: -33.96, lon: 25.60, label: Gqeberha }
     rainfall_regime: year_round
 
   - code: FS
     name: Free State
-    gadm_name: Free State
+    gadm_name: FreeState
     point: { lat: -29.12, lon: 26.21, label: Bloemfontein }
     rainfall_regime: summer
 
@@ -47,12 +47,12 @@ regions:
 
   - code: NW
     name: North West
-    gadm_name: North West
+    gadm_name: NorthWest
     point: { lat: -25.87, lon: 25.64, label: Mahikeng }
     rainfall_regime: summer
 
   - code: NC
     name: Northern Cape
-    gadm_name: Northern Cape
+    gadm_name: NorthernCape
     point: { lat: -28.74, lon: 24.77, label: Kimberley }
     rainfall_regime: summer
