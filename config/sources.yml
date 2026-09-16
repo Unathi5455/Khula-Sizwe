@@ -1,0 +1,49 @@
+period:
+  start: "1991-01-01"
+  end: "2024-12-31"
+  baseline_start: "1991-01-01"
+  baseline_end: "2020-12-31"
+
+nasa_power:
+  base_url: "https://power.larc.nasa.gov/api/temporal/daily/point"
+  community: "AG"
+  parameters:
+    - PRECTOTCORR
+    - T2M
+    - T2M_MAX
+    - RH2M
+    - GWETROOT
+    - GWETTOP
+    - ALLSKY_SFC_SW_DWN
+  fill_value: -999.0
+  chunk_years: 10
+  retries: 4
+  backoff_seconds: 3
+  timeout_seconds: 90
+
+chirps:
+  base_url: "https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs"
+  filename_template: "chirps-v2.0.{year}.{month:02d}.tif.gz"
+  nodata: -9999.0
+  retries: 4
+  backoff_seconds: 3
+  timeout_seconds: 300
+
+boundaries:
+  gadm_url: "https://geodata.ucdavis.edu/gadm/gadm4.1/json/gadm41_ZAF_1.json"
+  name_field: "NAME_1"
+
+ndvi:
+  raw_filename: "modis_ndvi_appeears.csv"
+  date_column: "Date"
+  region_column: "ID"
+  value_column: "MOD13Q1_061__250m_16_days_NDVI"
+  scale_factor: 0.0001
+  fill_value: -3000
+
+paths:
+  raw_nasa_power: "data/raw/nasa_power"
+  raw_chirps: "data/raw/chirps"
+  raw_boundaries: "data/raw/boundaries"
+  raw_ndvi: "data/raw/ndvi"
+  processed: "data/processed"
