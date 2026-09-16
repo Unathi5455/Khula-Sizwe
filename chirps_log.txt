@@ -1,0 +1,2 @@
+nohup: ignoring input
+2026-09-16 21:38:21,174 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.01.tif.gz
