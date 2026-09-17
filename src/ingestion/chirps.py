@@ -16,6 +16,7 @@ from __future__ import annotations
 import argparse
 import gzip
 import shutil
+import time
 from pathlib import Path
 
 import numpy as np
@@ -58,28 +59,47 @@ def download_month(
     url = f"{cfg['base_url']}/{filename}"
     gz_path = cache_dir / filename
 
-    LOG.info("Downloading %s", url)
-    try:
-        response = request_with_retry(
-            url,
-            retries=cfg["retries"],
-            backoff_seconds=cfg["backoff_seconds"],
-            timeout_seconds=cfg["timeout_seconds"],
-            stream=True,
-            session=session,
-            logger=LOG,
-        )
-    except requests.HTTPError as exc:
-        status = getattr(exc.response, "status_code", None)
-        if status == 404:
-            # Recent months are published on a lag; skip rather than crash.
-            LOG.warning("%s-%02d not published yet (404), skipping", year, month)
-            return None
-        raise
+    for attempt in range(1, cfg["retries"] + 1):
+        LOG.info("Downloading %s (attempt %s/%s)", url, attempt, cfg["retries"])
+        try:
+            response = request_with_retry(
+                url,
+                retries=1,  # the outer loop here handles retries; inner stays single-shot
+                backoff_seconds=cfg["backoff_seconds"],
+                timeout_seconds=cfg["timeout_seconds"],
+                stream=True,
+                session=session,
+                logger=LOG,
+            )
+        except requests.HTTPError as exc:
+            status = getattr(exc.response, "status_code", None)
+            if status == 404:
+                # Recent months are published on a lag; skip rather than crash.
+                LOG.warning("%s-%02d not published yet (404), skipping", year, month)
+                return None
+            raise
 
-    with gz_path.open("wb") as fh:
-        for block in response.iter_content(chunk_size=1 << 20):
-            fh.write(block)
+        try:
+            with gz_path.open("wb") as fh:
+                for block in response.iter_content(chunk_size=1 << 20):
+                    fh.write(block)
+            break  # download completed without a mid-stream error
+        except requests.exceptions.RequestException as exc:
+            # A connection can die mid-download (not just on connect), which the
+            # outer request_with_retry never sees since the GET already
+            # "succeeded" before streaming started. Clean up the partial file
+            # and retry the whole download rather than leaving junk on disk.
+            gz_path.unlink(missing_ok=True)
+            if attempt == cfg["retries"]:
+                raise
+            wait = cfg["backoff_seconds"] * (2 ** (attempt - 1))
+            LOG.warning(
+                "Stream failed for %s-%02d (%s). Retrying in %.1fs",
+                year, month, exc, wait,
+            )
+            time.sleep(wait)
+    else:
+        raise RuntimeError(f"Failed to download {url} after {cfg['retries']} attempts")
 
     with gzip.open(gz_path, "rb") as src, tif_path.open("wb") as dst:
         shutil.copyfileobj(src, dst)
@@ -166,3 +186,4 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
+
