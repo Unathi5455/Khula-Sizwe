@@ -80,15 +80,30 @@ def download_month(
             raise
 
         try:
+            downloaded = 0
+            started = time.monotonic()
+            # requests' timeout only fires on a gap between bytes, so a slow
+            # trickle that never fully stalls can hang forever without ever
+            # raising. This is a hard wall-clock cap on the WHOLE download.
+            max_seconds = cfg["timeout_seconds"] * 3
             with gz_path.open("wb") as fh:
                 for block in response.iter_content(chunk_size=1 << 20):
+                    if time.monotonic() - started > max_seconds:
+                        raise TimeoutError(
+                            f"Download exceeded {max_seconds:.0f}s total "
+                            f"(stalled/slow connection, not a clean disconnect)"
+                        )
                     fh.write(block)
+                    downloaded += len(block)
+                    if downloaded % (5 << 20) < (1 << 20):  # log every ~5MB
+                        LOG.info("  ...%.1f MB downloaded", downloaded / (1 << 20))
             break  # download completed without a mid-stream error
-        except requests.exceptions.RequestException as exc:
-            # A connection can die mid-download (not just on connect), which the
-            # outer request_with_retry never sees since the GET already
-            # "succeeded" before streaming started. Clean up the partial file
-            # and retry the whole download rather than leaving junk on disk.
+        except (requests.exceptions.RequestException, TimeoutError) as exc:
+            # A connection can die or stall mid-download (not just on connect),
+            # which the outer request_with_retry never sees since the GET
+            # already "succeeded" before streaming started. Clean up the
+            # partial file and retry the whole download rather than leaving
+            # junk on disk or hanging indefinitely.
             gz_path.unlink(missing_ok=True)
             if attempt == cfg["retries"]:
                 raise
@@ -186,4 +201,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-
