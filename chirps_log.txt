@@ -1,2 +1,242 @@
 nohup: ignoring input
-2026-09-16 21:38:21,174 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.01.tif.gz
+2026-09-17 11:37:03,977 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.01.tif.gz (attempt 1/4)
+2026-09-17 11:37:11,795 | INFO    | ingestion.chirps | Processed 2015-01
+2026-09-17 11:37:11,795 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.02.tif.gz (attempt 1/4)
+2026-09-17 11:37:18,004 | INFO    | ingestion.chirps | Processed 2015-02
+2026-09-17 11:37:18,005 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.03.tif.gz (attempt 1/4)
+2026-09-17 11:37:24,680 | INFO    | ingestion.chirps | Processed 2015-03
+2026-09-17 11:37:24,680 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.04.tif.gz (attempt 1/4)
+2026-09-17 11:37:30,940 | INFO    | ingestion.chirps | Processed 2015-04
+2026-09-17 11:37:30,940 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.05.tif.gz (attempt 1/4)
+2026-09-17 11:37:36,395 | INFO    | ingestion.chirps | Processed 2015-05
+2026-09-17 11:37:36,395 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.06.tif.gz (attempt 1/4)
+2026-09-17 11:37:43,327 | INFO    | ingestion.chirps | Processed 2015-06
+2026-09-17 11:37:43,327 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.07.tif.gz (attempt 1/4)
+2026-09-17 11:37:49,669 | INFO    | ingestion.chirps | Processed 2015-07
+2026-09-17 11:37:49,670 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.08.tif.gz (attempt 1/4)
+2026-09-17 11:37:56,170 | INFO    | ingestion.chirps | Processed 2015-08
+2026-09-17 11:37:56,170 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.09.tif.gz (attempt 1/4)
+2026-09-17 11:38:02,675 | INFO    | ingestion.chirps | Processed 2015-09
+2026-09-17 11:38:02,675 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.10.tif.gz (attempt 1/4)
+2026-09-17 11:38:08,419 | INFO    | ingestion.chirps | Processed 2015-10
+2026-09-17 11:38:08,420 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.11.tif.gz (attempt 1/4)
+2026-09-17 11:38:15,287 | INFO    | ingestion.chirps | Processed 2015-11
+2026-09-17 11:38:15,289 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2015.12.tif.gz (attempt 1/4)
+2026-09-17 11:38:21,129 | INFO    | ingestion.chirps | Processed 2015-12
+2026-09-17 11:38:21,129 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.01.tif.gz (attempt 1/4)
+2026-09-17 11:38:27,406 | INFO    | ingestion.chirps | Processed 2016-01
+2026-09-17 11:38:27,406 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.02.tif.gz (attempt 1/4)
+2026-09-17 11:38:33,575 | INFO    | ingestion.chirps | Processed 2016-02
+2026-09-17 11:38:33,576 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.03.tif.gz (attempt 1/4)
+2026-09-17 11:38:40,001 | INFO    | ingestion.chirps | Processed 2016-03
+2026-09-17 11:38:40,002 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.04.tif.gz (attempt 1/4)
+2026-09-17 11:38:46,308 | INFO    | ingestion.chirps | Processed 2016-04
+2026-09-17 11:38:46,309 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.05.tif.gz (attempt 1/4)
+2026-09-17 11:38:52,698 | INFO    | ingestion.chirps | Processed 2016-05
+2026-09-17 11:38:52,699 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.06.tif.gz (attempt 1/4)
+2026-09-17 11:38:59,263 | INFO    | ingestion.chirps | Processed 2016-06
+2026-09-17 11:38:59,266 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.07.tif.gz (attempt 1/4)
+2026-09-17 11:39:05,054 | INFO    | ingestion.chirps | Processed 2016-07
+2026-09-17 11:39:05,055 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.08.tif.gz (attempt 1/4)
+2026-09-17 11:39:11,087 | INFO    | ingestion.chirps | Processed 2016-08
+2026-09-17 11:39:11,087 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.09.tif.gz (attempt 1/4)
+2026-09-17 11:39:16,591 | INFO    | ingestion.chirps | Processed 2016-09
+2026-09-17 11:39:16,591 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.10.tif.gz (attempt 1/4)
+2026-09-17 11:39:23,113 | INFO    | ingestion.chirps | Processed 2016-10
+2026-09-17 11:39:23,113 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.11.tif.gz (attempt 1/4)
+2026-09-17 11:39:29,287 | INFO    | ingestion.chirps | Processed 2016-11
+2026-09-17 11:39:29,287 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2016.12.tif.gz (attempt 1/4)
+2026-09-17 11:39:35,213 | INFO    | ingestion.chirps | Processed 2016-12
+2026-09-17 11:39:35,214 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.01.tif.gz (attempt 1/4)
+2026-09-17 11:39:41,592 | INFO    | ingestion.chirps | Processed 2017-01
+2026-09-17 11:39:41,592 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.02.tif.gz (attempt 1/4)
+2026-09-17 11:39:47,627 | INFO    | ingestion.chirps | Processed 2017-02
+2026-09-17 11:39:47,628 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.03.tif.gz (attempt 1/4)
+2026-09-17 11:39:53,106 | INFO    | ingestion.chirps | Processed 2017-03
+2026-09-17 11:39:53,106 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.04.tif.gz (attempt 1/4)
+2026-09-17 11:39:59,045 | INFO    | ingestion.chirps | Processed 2017-04
+2026-09-17 11:39:59,045 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.05.tif.gz (attempt 1/4)
+2026-09-17 11:40:05,938 | INFO    | ingestion.chirps | Processed 2017-05
+2026-09-17 11:40:05,939 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.06.tif.gz (attempt 1/4)
+2026-09-17 11:40:12,596 | INFO    | ingestion.chirps | Processed 2017-06
+2026-09-17 11:40:12,596 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.07.tif.gz (attempt 1/4)
+2026-09-17 11:40:19,682 | INFO    | ingestion.chirps | Processed 2017-07
+2026-09-17 11:40:19,682 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.08.tif.gz (attempt 1/4)
+2026-09-17 11:40:27,234 | INFO    | ingestion.chirps | Processed 2017-08
+2026-09-17 11:40:27,234 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.09.tif.gz (attempt 1/4)
+2026-09-17 11:40:33,453 | INFO    | ingestion.chirps | Processed 2017-09
+2026-09-17 11:40:33,454 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.10.tif.gz (attempt 1/4)
+2026-09-17 11:40:39,684 | INFO    | ingestion.chirps | Processed 2017-10
+2026-09-17 11:40:39,684 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.11.tif.gz (attempt 1/4)
+2026-09-17 11:40:46,990 | INFO    | ingestion.chirps | Processed 2017-11
+2026-09-17 11:40:46,991 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2017.12.tif.gz (attempt 1/4)
+2026-09-17 11:40:53,369 | INFO    | ingestion.chirps | Processed 2017-12
+2026-09-17 11:40:53,396 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.01.tif.gz (attempt 1/4)
+2026-09-17 11:41:00,136 | INFO    | ingestion.chirps | Processed 2018-01
+2026-09-17 11:41:00,137 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.02.tif.gz (attempt 1/4)
+2026-09-17 11:41:06,581 | INFO    | ingestion.chirps | Processed 2018-02
+2026-09-17 11:41:06,697 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.03.tif.gz (attempt 1/4)
+2026-09-17 11:41:13,371 | INFO    | ingestion.chirps | Processed 2018-03
+2026-09-17 11:41:13,372 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.04.tif.gz (attempt 1/4)
+2026-09-17 11:41:19,798 | INFO    | ingestion.chirps | Processed 2018-04
+2026-09-17 11:41:19,799 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.05.tif.gz (attempt 1/4)
+2026-09-17 11:41:25,543 | INFO    | ingestion.chirps | Processed 2018-05
+2026-09-17 11:41:25,544 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.06.tif.gz (attempt 1/4)
+2026-09-17 11:41:32,814 | INFO    | ingestion.chirps | Processed 2018-06
+2026-09-17 11:41:32,814 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.07.tif.gz (attempt 1/4)
+2026-09-17 11:41:39,295 | INFO    | ingestion.chirps | Processed 2018-07
+2026-09-17 11:41:39,298 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.08.tif.gz (attempt 1/4)
+2026-09-17 11:41:46,713 | INFO    | ingestion.chirps | Processed 2018-08
+2026-09-17 11:41:46,713 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.09.tif.gz (attempt 1/4)
+2026-09-17 11:41:53,322 | INFO    | ingestion.chirps | Processed 2018-09
+2026-09-17 11:41:53,323 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.10.tif.gz (attempt 1/4)
+2026-09-17 11:42:00,353 | INFO    | ingestion.chirps | Processed 2018-10
+2026-09-17 11:42:00,353 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.11.tif.gz (attempt 1/4)
+2026-09-17 11:42:06,247 | INFO    | ingestion.chirps | Processed 2018-11
+2026-09-17 11:42:06,248 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2018.12.tif.gz (attempt 1/4)
+2026-09-17 11:42:11,788 | INFO    | ingestion.chirps | Processed 2018-12
+2026-09-17 11:42:11,789 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.01.tif.gz (attempt 1/4)
+2026-09-17 11:42:19,036 | INFO    | ingestion.chirps | Processed 2019-01
+2026-09-17 11:42:19,036 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.02.tif.gz (attempt 1/4)
+2026-09-17 11:42:25,157 | INFO    | ingestion.chirps | Processed 2019-02
+2026-09-17 11:42:25,158 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.03.tif.gz (attempt 1/4)
+2026-09-17 11:42:30,438 | INFO    | ingestion.chirps | Processed 2019-03
+2026-09-17 11:42:30,439 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.04.tif.gz (attempt 1/4)
+2026-09-17 11:42:36,239 | INFO    | ingestion.chirps | Processed 2019-04
+2026-09-17 11:42:36,240 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.05.tif.gz (attempt 1/4)
+2026-09-17 11:42:43,053 | INFO    | ingestion.chirps | Processed 2019-05
+2026-09-17 11:42:43,056 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.06.tif.gz (attempt 1/4)
+2026-09-17 11:42:50,238 | INFO    | ingestion.chirps | Processed 2019-06
+2026-09-17 11:42:50,239 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.07.tif.gz (attempt 1/4)
+2026-09-17 11:42:55,827 | INFO    | ingestion.chirps | Processed 2019-07
+2026-09-17 11:42:55,828 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.08.tif.gz (attempt 1/4)
+2026-09-17 11:43:01,855 | INFO    | ingestion.chirps | Processed 2019-08
+2026-09-17 11:43:01,855 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.09.tif.gz (attempt 1/4)
+2026-09-17 11:43:08,853 | INFO    | ingestion.chirps | Processed 2019-09
+2026-09-17 11:43:08,853 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.10.tif.gz (attempt 1/4)
+2026-09-17 11:43:14,874 | INFO    | ingestion.chirps | Processed 2019-10
+2026-09-17 11:43:14,875 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.11.tif.gz (attempt 1/4)
+2026-09-17 11:43:19,997 | INFO    | ingestion.chirps | Processed 2019-11
+2026-09-17 11:43:19,998 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2019.12.tif.gz (attempt 1/4)
+2026-09-17 11:43:25,853 | INFO    | ingestion.chirps | Processed 2019-12
+2026-09-17 11:43:25,853 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.01.tif.gz (attempt 1/4)
+2026-09-17 11:43:32,507 | INFO    | ingestion.chirps | Processed 2020-01
+2026-09-17 11:43:32,508 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.02.tif.gz (attempt 1/4)
+2026-09-17 11:43:39,052 | INFO    | ingestion.chirps | Processed 2020-02
+2026-09-17 11:43:39,053 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.03.tif.gz (attempt 1/4)
+2026-09-17 11:43:44,978 | INFO    | ingestion.chirps | Processed 2020-03
+2026-09-17 11:43:44,978 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.04.tif.gz (attempt 1/4)
+2026-09-17 11:43:51,826 | INFO    | ingestion.chirps | Processed 2020-04
+2026-09-17 11:43:51,826 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.05.tif.gz (attempt 1/4)
+2026-09-17 11:43:58,316 | INFO    | ingestion.chirps | Processed 2020-05
+2026-09-17 11:43:58,316 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.06.tif.gz (attempt 1/4)
+2026-09-17 11:44:05,019 | INFO    | ingestion.chirps | Processed 2020-06
+2026-09-17 11:44:05,019 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.07.tif.gz (attempt 1/4)
+2026-09-17 11:44:11,669 | INFO    | ingestion.chirps | Processed 2020-07
+2026-09-17 11:44:11,696 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.08.tif.gz (attempt 1/4)
+2026-09-17 11:44:18,680 | INFO    | ingestion.chirps | Processed 2020-08
+2026-09-17 11:44:18,681 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.09.tif.gz (attempt 1/4)
+2026-09-17 11:44:25,695 | INFO    | ingestion.chirps | Processed 2020-09
+2026-09-17 11:44:25,696 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.10.tif.gz (attempt 1/4)
+2026-09-17 11:44:32,163 | INFO    | ingestion.chirps | Processed 2020-10
+2026-09-17 11:44:32,164 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.11.tif.gz (attempt 1/4)
+2026-09-17 11:44:38,298 | INFO    | ingestion.chirps | Processed 2020-11
+2026-09-17 11:44:38,298 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2020.12.tif.gz (attempt 1/4)
+2026-09-17 11:44:44,885 | INFO    | ingestion.chirps | Processed 2020-12
+2026-09-17 11:44:44,886 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.01.tif.gz (attempt 1/4)
+2026-09-17 11:44:50,504 | INFO    | ingestion.chirps | Processed 2021-01
+2026-09-17 11:44:50,504 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.02.tif.gz (attempt 1/4)
+2026-09-17 11:44:56,689 | INFO    | ingestion.chirps | Processed 2021-02
+2026-09-17 11:44:56,689 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.03.tif.gz (attempt 1/4)
+2026-09-17 11:45:03,624 | INFO    | ingestion.chirps | Processed 2021-03
+2026-09-17 11:45:03,625 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.04.tif.gz (attempt 1/4)
+2026-09-17 11:45:10,638 | INFO    | ingestion.chirps | Processed 2021-04
+2026-09-17 11:45:10,638 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.05.tif.gz (attempt 1/4)
+2026-09-17 11:45:16,644 | INFO    | ingestion.chirps | Processed 2021-05
+2026-09-17 11:45:16,645 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.06.tif.gz (attempt 1/4)
+2026-09-17 11:45:22,946 | INFO    | ingestion.chirps | Processed 2021-06
+2026-09-17 11:45:22,946 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.07.tif.gz (attempt 1/4)
+2026-09-17 11:45:31,818 | INFO    | ingestion.chirps | Processed 2021-07
+2026-09-17 11:45:31,818 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.08.tif.gz (attempt 1/4)
+2026-09-17 11:45:38,364 | INFO    | ingestion.chirps | Processed 2021-08
+2026-09-17 11:45:38,364 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.09.tif.gz (attempt 1/4)
+2026-09-17 11:45:44,880 | INFO    | ingestion.chirps | Processed 2021-09
+2026-09-17 11:45:44,881 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.10.tif.gz (attempt 1/4)
+2026-09-17 11:45:51,524 | INFO    | ingestion.chirps | Processed 2021-10
+2026-09-17 11:45:51,524 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.11.tif.gz (attempt 1/4)
+2026-09-17 11:45:58,103 | INFO    | ingestion.chirps | Processed 2021-11
+2026-09-17 11:45:58,114 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2021.12.tif.gz (attempt 1/4)
+2026-09-17 11:46:03,865 | INFO    | ingestion.chirps | Processed 2021-12
+2026-09-17 11:46:03,866 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.01.tif.gz (attempt 1/4)
+2026-09-17 11:46:10,999 | INFO    | ingestion.chirps | Processed 2022-01
+2026-09-17 11:46:10,999 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.02.tif.gz (attempt 1/4)
+2026-09-17 11:46:16,881 | INFO    | ingestion.chirps | Processed 2022-02
+2026-09-17 11:46:16,882 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.03.tif.gz (attempt 1/4)
+2026-09-17 11:46:22,075 | INFO    | ingestion.chirps | Processed 2022-03
+2026-09-17 11:46:22,076 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.04.tif.gz (attempt 1/4)
+2026-09-17 11:46:27,625 | INFO    | ingestion.chirps | Processed 2022-04
+2026-09-17 11:46:27,626 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.05.tif.gz (attempt 1/4)
+2026-09-17 11:46:34,063 | INFO    | ingestion.chirps | Processed 2022-05
+2026-09-17 11:46:34,063 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.06.tif.gz (attempt 1/4)
+2026-09-17 11:46:40,024 | INFO    | ingestion.chirps | Processed 2022-06
+2026-09-17 11:46:40,025 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.07.tif.gz (attempt 1/4)
+2026-09-17 11:46:45,424 | INFO    | ingestion.chirps | Processed 2022-07
+2026-09-17 11:46:45,425 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.08.tif.gz (attempt 1/4)
+2026-09-17 11:46:50,942 | INFO    | ingestion.chirps | Processed 2022-08
+2026-09-17 11:46:50,943 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.09.tif.gz (attempt 1/4)
+2026-09-17 11:46:55,891 | INFO    | ingestion.chirps | Processed 2022-09
+2026-09-17 11:46:55,891 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.10.tif.gz (attempt 1/4)
+2026-09-17 11:47:01,030 | INFO    | ingestion.chirps | Processed 2022-10
+2026-09-17 11:47:01,030 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.11.tif.gz (attempt 1/4)
+2026-09-17 11:47:06,826 | INFO    | ingestion.chirps | Processed 2022-11
+2026-09-17 11:47:06,827 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2022.12.tif.gz (attempt 1/4)
+2026-09-17 11:47:32,781 | INFO    | ingestion.chirps | Processed 2022-12
+2026-09-17 11:47:32,781 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.01.tif.gz (attempt 1/4)
+2026-09-17 11:47:38,925 | INFO    | ingestion.chirps | Processed 2023-01
+2026-09-17 11:47:38,926 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.02.tif.gz (attempt 1/4)
+2026-09-17 11:47:45,330 | INFO    | ingestion.chirps | Processed 2023-02
+2026-09-17 11:47:45,330 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.03.tif.gz (attempt 1/4)
+2026-09-17 11:47:51,401 | INFO    | ingestion.chirps | Processed 2023-03
+2026-09-17 11:47:51,401 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.04.tif.gz (attempt 1/4)
+2026-09-17 11:47:59,008 | INFO    | ingestion.chirps | Processed 2023-04
+2026-09-17 11:47:59,022 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.05.tif.gz (attempt 1/4)
+2026-09-17 11:48:05,831 | INFO    | ingestion.chirps | Processed 2023-05
+2026-09-17 11:48:05,833 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.06.tif.gz (attempt 1/4)
+2026-09-17 11:48:13,822 | INFO    | ingestion.chirps | Processed 2023-06
+2026-09-17 11:48:13,823 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.07.tif.gz (attempt 1/4)
+2026-09-17 11:48:20,908 | INFO    | ingestion.chirps | Processed 2023-07
+2026-09-17 11:48:20,909 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.08.tif.gz (attempt 1/4)
+2026-09-17 11:48:27,079 | INFO    | ingestion.chirps | Processed 2023-08
+2026-09-17 11:48:27,081 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.09.tif.gz (attempt 1/4)
+2026-09-17 11:48:32,672 | INFO    | ingestion.chirps | Processed 2023-09
+2026-09-17 11:48:32,673 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.10.tif.gz (attempt 1/4)
+2026-09-17 11:48:39,035 | INFO    | ingestion.chirps | Processed 2023-10
+2026-09-17 11:48:39,037 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.11.tif.gz (attempt 1/4)
+2026-09-17 11:48:45,946 | INFO    | ingestion.chirps | Processed 2023-11
+2026-09-17 11:48:45,947 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2023.12.tif.gz (attempt 1/4)
+2026-09-17 11:48:52,641 | INFO    | ingestion.chirps | Processed 2023-12
+2026-09-17 11:48:52,641 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.01.tif.gz (attempt 1/4)
+2026-09-17 11:49:00,545 | INFO    | ingestion.chirps | Processed 2024-01
+2026-09-17 11:49:00,546 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.02.tif.gz (attempt 1/4)
+2026-09-17 11:49:07,538 | INFO    | ingestion.chirps | Processed 2024-02
+2026-09-17 11:49:07,539 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.03.tif.gz (attempt 1/4)
+2026-09-17 11:49:13,086 | INFO    | ingestion.chirps | Processed 2024-03
+2026-09-17 11:49:13,086 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.04.tif.gz (attempt 1/4)
+2026-09-17 11:49:19,981 | INFO    | ingestion.chirps | Processed 2024-04
+2026-09-17 11:49:19,982 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.05.tif.gz (attempt 1/4)
+2026-09-17 11:49:26,138 | INFO    | ingestion.chirps | Processed 2024-05
+2026-09-17 11:49:26,138 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.06.tif.gz (attempt 1/4)
+2026-09-17 11:49:34,932 | INFO    | ingestion.chirps | Processed 2024-06
+2026-09-17 11:49:34,933 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.07.tif.gz (attempt 1/4)
+2026-09-17 11:49:45,516 | INFO    | ingestion.chirps | Processed 2024-07
+2026-09-17 11:49:45,517 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.08.tif.gz (attempt 1/4)
+2026-09-17 11:49:52,458 | INFO    | ingestion.chirps | Processed 2024-08
+2026-09-17 11:49:52,459 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.09.tif.gz (attempt 1/4)
+2026-09-17 11:49:57,385 | INFO    | ingestion.chirps | Processed 2024-09
+2026-09-17 11:49:57,386 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.10.tif.gz (attempt 1/4)
+2026-09-17 11:50:02,963 | INFO    | ingestion.chirps | Processed 2024-10
+2026-09-17 11:50:02,964 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.11.tif.gz (attempt 1/4)
+2026-09-17 11:50:10,115 | INFO    | ingestion.chirps | Processed 2024-11
+2026-09-17 11:50:10,116 | INFO    | ingestion.chirps | Downloading https://data.chc.ucsb.edu/products/CHIRPS-2.0/africa_monthly/tifs/chirps-v2.0.2024.12.tif.gz (attempt 1/4)
+2026-09-17 11:50:17,778 | INFO    | ingestion.chirps | Processed 2024-12
+2026-09-17 11:50:22,319 | INFO    | ingestion.chirps | Wrote 1080 region-months to /home/unathisiganeko/Khula-Sizwe/data/raw/chirps/chirps_monthly.parquet
