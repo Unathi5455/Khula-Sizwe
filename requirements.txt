@@ -18,3 +18,4 @@ dash>=2.16
 
 # Dev
 pytest>=8.0
+prefect>=3.0
