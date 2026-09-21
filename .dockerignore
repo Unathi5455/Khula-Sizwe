@@ -1,0 +1,25 @@
+# Keeps the Docker build context small and avoids ever baking local data,
+# secrets, or caches into an image layer.
+
+.git/
+.gitignore
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Local data and models - mounted as volumes at run time instead (see
+# docker-compose.yml), never copied into the image itself.
+data/raw/
+data/processed/
+models/
+
+notebooks/
+*.md
+.idea/
+.vscode/
+
+# Only relevant to the CHIRPS ingestion watchdog scripts, not the image.
+chirps_log.txt
+nohup.out
