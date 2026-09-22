@@ -4,7 +4,7 @@ Drought Early-Warning System for Food Security in Africa
 
 An automated data engineering pipeline that ingests climate and soil data to forecast drought conditions and support early intervention against food insecurity in vulnerable African regions.
 
-Overview
+Overview:
 
 Sub-Saharan Africa accounts for over 60% of global drought-related food insecurity events. Traditional monitoring is reactive and fragmented.
 
